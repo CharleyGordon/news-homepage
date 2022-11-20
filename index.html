@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/src/" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main data-grid>
+      <header data-flex data-align-items="center">
+        <div class="logo"><img src="images/logo.svg" alt="" /></div>
+        <div class="hamburger" data-grid data-align-items="center">
+          <svg
+            width="40"
+            height="17"
+            xmlns="http://www.w3.org/2000/svg"
+            class="open"
+          >
+            <g fill="#00001A" fill-rule="evenodd">
+              <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+              <path d="M0 0h40v3H0z" />
+            </g>
+          </svg>
+          <img src="images/icon-menu-close.svg" alt="" / class="close">
+
+          <!-- <img src="images/icon-menu.svg" alt="" /> -->
+          <!-- <img src="images/icon-menu-close.svg" alt="" /> -->
+        </div>
+        <nav data-align-items="center">
+          <ul data-flex>
+            <li><a href="">Home</a></li>
+            <li><a href="">New</a></li>
+            <li><a href="">Popular</a></li>
+            <li><a href="">Trending</a></li>
+            <li><a href="">Categories</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="top-section" data-grid>
+        <article class="top-article" data-grid>
+          <picture class="main-picture">
+            <source
+              srcset="images/image-web-3-mobile.jpg"
+              media="(max-width: 800px)"
+            />
+            <source
+              srcset="images/image-web-3-desktop.jpg"
+              media="(min-width: 800px)"
+            />
+            <img src="images/image-web-3-mobile.jpg" alt="" />
+          </picture>
+          <h1>The Bright Future of Web 3.0?</h1>
+          <p>
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+          <a href="" class="read-more" data-grid>Read more</a>
+        </article>
+        <aside class="new-articles" data-grid>
+          <h3>New</h3>
+          <article class="side-article" data-grid>
+            <h4><a href="">Hydrogen VS Electric Cars</a></h4>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </article>
+          <hr />
+          <article class="side-article" data-grid>
+            <h4><a href="">The Downsides of AI Artistry</a></h4>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </article>
+          <hr />
+          <article class="side-article" data-grid>
+            <h4><a href="">Is VC Funding Drying Up?</a></h4>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </article>
+        </aside>
+      </section>
+      <section class="bottom-section" data-grid>
+        <article class="bottom-article" data-grid>
+          <bottom-article-img
+            ><img src="images/image-retro-pcs.jpg" alt=""
+          /></bottom-article-img>
+          <div class="bottom-article-wrapper" data-grid="">
+            <h5><a href="">Reviving Retro PCs</a></h5>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
+        <article class="bottom-article" data-grid>
+          <bottom-article-img
+            ><img src="images/image-top-laptops.jpg" alt=""
+          /></bottom-article-img>
+          <div class="bottom-article-wrapper" data-grid="">
+            <h5><a href="">Top 10 Laptops of 2022</a></h5>
+            <p>Our best picks for various needs and budgets</p>
+          </div>
+        </article>
+        <article class="bottom-article" data-grid>
+          <bottom-article-img
+            ><img src="images/image-gaming-growth.jpg" alt=""
+          /></bottom-article-img>
+          <div class="bottom-article-wrapper" data-grid="">
+            <h5><a href="">The Growth of Gaming</a></h5>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!-- 01  
+    02  . 03 -->
+  </body>
+</html>

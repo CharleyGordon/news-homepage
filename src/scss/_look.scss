@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+$primary-orange: hsl(35, 77%, 62%);
+$primary-red: hsl(5, 85%, 63%);
+$secondary-white: hsl(36, 100%, 99%);
+$secondary-blue: hsl(233, 8%, 79%);
+$secondary-grayish-blue: hsl(236, 13%, 42%);
+$secondary-dark-blue: hsl(240, 100%, 5%);
+$fontS: 15px;
+$fFamily: "Inter", sans-serif;
+// hover states
+%hover:hover {
+  color: var(--hover-color);
+  background-color: var(--hover-bg, transparent);
+  transition: 0.3s;
+}
+a {
+  @extend %hover;
+}
+nav,
+h5 {
+  --hover-color: #{$primary-red};
+}
+aside {
+  --hover-color: #{$primary-orange};
+}
+.top-article {
+  --hover-color: #{$secondary-white};
+  --hover-bg: #{$secondary-dark-blue};
+}
