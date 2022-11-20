@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/CharleyGordon/news-homepage)
-- Live Site URL: [Add live site URL here](https://earnest-eclair-6d28a3.netlify.app/)
+- Solution URL: https://github.com/CharleyGordon/news-homepage
+- Live Site URL: https://earnest-eclair-6d28a3.netlify.app/
 
 ## My process
 
