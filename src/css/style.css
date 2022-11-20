@@ -69,6 +69,10 @@ aside {
   padding: 0;
 }
 
+body {
+  min-height: 100vh;
+}
+
 .mainpadding, main {
   padding: 0.5rem;
 }
